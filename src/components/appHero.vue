@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            img: ""
+
         }
     }
 }
@@ -10,7 +10,11 @@ export default {
 
 <template>
     <!--JUMBO:-->
-    <img :src="{{ img }}">
+    <img src="../assets/img/Jumbo_bg.png" alt="jumbo">
 </template>
 
-<style></style>
+<style>
+img {
+    object-fit: cover;
+}
+</style>
