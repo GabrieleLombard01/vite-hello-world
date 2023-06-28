@@ -7,7 +7,7 @@ export default {
     }
   },
   components: {
-    appTitle
+    appTitle: appTitle
   }
 }
 </script>
